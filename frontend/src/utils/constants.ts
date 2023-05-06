@@ -1,4 +1,4 @@
 export const informations = {
-    name: "CCAK",
+    name: "CCEAK",
     fullName: "Casa de Cultura Espirita Allan Kardec"
 }
