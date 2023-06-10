@@ -14,8 +14,8 @@ export default function Home() {
       <div className="bg-white ml-auto mr-auto">
 
         <section className="p-8 flex justify-center items-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/DEg7bGfonTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/tgjmWlxXitY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DEg7bGfonTE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tgjmWlxXitY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
         </section>
 
         <section id="calendar" className="grid grid-cols-2 grid-rows-1 h-80">
