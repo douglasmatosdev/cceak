@@ -5,7 +5,7 @@ import { FaFacebookSquare, FaYoutubeSquare } from "react-icons/fa";
 
 export const Footer = () => {
     return (
-        <div className="w-[70%] border-t-2  border-gray-500 flex justify-center flex-col items-center p-8">
+        <div className="w-full border-t-2  border-gray-500 flex justify-center flex-col items-center p-8">
           <div className="flex ">
             <a
               className="text-2xl cursor-pointer"
@@ -26,7 +26,8 @@ export const Footer = () => {
               <FaYoutubeSquare className="text-red-500" />
             </a>
           </div>
-          &copy; Copyright {new Date().getFullYear()} {informations.name}
+          <span>&copy; Todos os direitos reservados a <strong>{informations.fullName}</strong></span>
+          <span>{informations.address}</span>
         </div>
     )
 }
