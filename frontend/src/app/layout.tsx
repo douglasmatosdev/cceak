@@ -1,7 +1,4 @@
 import './globals.css'
-import { Open_Sans } from 'next/font/google'
-
-const inter = Open_Sans({ subsets: ['latin'] })
 
 import { informations } from '@/utils'
 
@@ -17,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ptBr">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
